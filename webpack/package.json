@@ -1,0 +1,52 @@
+{
+  "name": "setup-vue-without-vue-cli",
+  "description": "How to create skeleton project in Vue.js from basic without Vue-CLI",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Irfan Maulana (https://github.com/mazipan/)",
+  "private": false,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --hot --color --open",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "lint": "./node_modules/.bin/eslint --ext .js,.vue src test/*.js --fix --no-ignore"
+  },
+  "homepage": "https://github.com/mazipan/setup-vue-without-vue-cli/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mazipan/setup-vue-without-vue-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mazipan/setup-vue-without-vue-cli/issues"
+  },
+  "dependencies": {
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "autoprefixer": "^9.1.5",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "23.6.0",
+    "babel-loader": "^8.0.4",
+    "compression-webpack-plugin": "^2.0.0",
+    "copy-webpack-plugin": "4.5.2",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.0",
+    "es6-promise": "^4.2.5",
+    "eslint": "^5.6.1",
+    "eslint-plugin-vue": "4.7.1",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.3",
+    "node-sass": "^4.9.3",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "rimraf": "^2.6.2",
+    "sass-loader": "^7.1.0",
+    "vue-loader": "^15.4.2",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.20.2",
+    "webpack-bundle-analyzer": "^3.0.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
