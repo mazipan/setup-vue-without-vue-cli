@@ -1,0 +1,23 @@
+{
+  "name": "setup-vue-without-vue-cli",
+  "description": "How to create skeleton project in Vue.js from basic without Vue-CLI",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Irfan Maulana (https://github.com/mazipan/)",
+  "private": false,
+  "scripts": {
+    "build": "node build.js"
+  },
+  "homepage": "https://github.com/mazipan/setup-vue-without-vue-cli/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mazipan/setup-vue-without-vue-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mazipan/setup-vue-without-vue-cli/issues"
+  },
+  "dependencies": {
+    "shelljs": "^0.8.2"
+  },
+  "devDependencies": {}
+}
