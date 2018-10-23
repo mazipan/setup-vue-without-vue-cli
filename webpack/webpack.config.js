@@ -60,7 +60,7 @@ module.exports = {
   },
   output: {
     path: IS_DEV ? path.resolve(__dirname) : resolvePath('dist'),
-    publicPath: IS_DEV ? '/' : '/vue2-simplert-plugin/',
+    publicPath: IS_DEV ? '/' : '/setup-vue-without-vue-cli/', // assume /setup-vue-without-vue-cli is your production path
     filename: IS_DEV ? '[name].js' : '[name].[hash].js'
   },
   mode: IS_DEV ? 'development' : 'production',
