@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development ./node_modules/.bin/parcel index.html",
     "build": "rimraf dist && npm run lint && cross-env NODE_ENV=production ./node_modules/.bin/parcel build index.html",
-    "lint": "./node_modules/.bin/eslint --ext .js,.vue src test/*.js --fix --no-ignore"
+    "lint": "./node_modules/.bin/eslint --ext .js,.vue src --fix --no-ignore"
   },
   "homepage": "https://github.com/mazipan/setup-vue-without-vue-cli/",
   "repository": {
@@ -31,6 +31,7 @@
     "css-loader": "^1.0.0",
     "es6-promise": "^4.2.5",
     "eslint": "^5.7.0",
+    "eslint-plugin-html": "^4.0.6",
     "eslint-plugin-vue": "4.7.1",
     "node-sass": "^4.9.4",
     "parcel-bundler": "1.10.3",
