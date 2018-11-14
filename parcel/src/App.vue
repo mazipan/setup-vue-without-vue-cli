@@ -1,5 +1,6 @@
 <template>
-  <div id="app" 
+  <div 
+    id="app" 
     class="app">
 
     <h1>Welcome to Vue</h1>

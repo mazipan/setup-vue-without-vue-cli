@@ -7,7 +7,7 @@ module.exports = {
     },
     extends: ['eslint:recommended', 'plugin:vue/recommended'],
     plugins: [
-      "html"
+      "vue"
     ],
     parserOptions: {
       ecmaVersion: 2018,
@@ -24,4 +24,3 @@ module.exports = {
       files: ['**/*.js', '**/*.vue']
     }
   };
-  

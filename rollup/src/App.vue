@@ -1,7 +1,7 @@
 <template>
   <div 
-  id="app" 
-  class="app">
+    id="app" 
+    class="app">
 
     <h1>Welcome to Vue</h1>
     <h2>{{ message }}</h2>
@@ -20,7 +20,7 @@ export default {
       message: 'Hello World!!!'
     }
   }
-};
+}
 </script>
 
 <style lang="scss">
